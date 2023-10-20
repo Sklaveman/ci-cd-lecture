@@ -1,0 +1,13 @@
+on:
+    push
+jobs:
+    idle_myname:
+        name: idle_renamed
+        runs-on: ubuntu-latest
+        steps:
+            -
+                name: step1
+                run: echo Idle Step
+            -
+                name: step2
+                run: echo step2
